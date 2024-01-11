@@ -1,0 +1,25 @@
+.pagination {
+  .page-item {
+    .page-link {
+      color: black;
+      border-radius: 50rem;
+      width: 36px;
+      height: 36px;
+      margin: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &.active {
+      .page-link {
+        background-color: black;
+        border-color: black;
+        color: white;
+        box-shadow: none;
+      }
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
